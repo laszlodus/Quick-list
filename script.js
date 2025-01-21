@@ -55,7 +55,6 @@ class QuickList {
     handleTodo(e) {
         if (e.target.tagName === 'BUTTON') {
             const buttonIndex = parseInt(e.target.dataset.index);
-            console.log(buttonIndex)
             if (confirm('Do you want delete?')) {
                 this.todos.splice(buttonIndex, 1);
                 this.addStorage();
