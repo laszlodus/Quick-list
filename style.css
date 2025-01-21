@@ -1,0 +1,46 @@
+/* header style */
+h1 {
+    color: blue;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#item::placeholder {
+    text-align: center;
+}
+
+.cont1 {
+    display: flex;
+    font-size: 18px;
+    width: 15rem;
+    height: 2rem;
+    justify-content: center;
+}
+p {
+    font-size: 25px;
+    color: red;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: large;
+    width: 15rem;
+    
+    
+}
+.listitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0.5rem; 
+    width: 100%;
+}
+span.ready {
+    text-decoration: line-through;
+}
